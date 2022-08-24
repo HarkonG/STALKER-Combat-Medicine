@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <ThingDef ParentName="MedicineBase">
+    <defName>STALKER_SimpleMedkit</defName>
+    <label>simple medkit</label>
+    <description>Medkits are designed to treat wounds in the middle of combat faster than your regular "hospital medicine" while losing some effectiveness in the process.\n\nThe simple medkit commonly used by novice stalkers is able to treat minor wounds and reduce bleeding.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Medicine/StalkerMedkit/Basic</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <statBases>
+      <MarketValue>10</MarketValue>
+      <Mass>0.35</Mass>
+      <Flammability>0.7</Flammability>
+      <MedicalPotency>0.60</MedicalPotency>
+      <MedicalQualityMax>0.70</MedicalQualityMax>
+      <DeteriorationRate>2</DeteriorationRate>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <allowedArchonexusCount>40</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="MedicineBase">
+    <defName>STALKER_MilitaryMedkit</defName>
+    <label>military medkit</label>
+    <description>Medkits are designed to treat wounds in the middle of combat faster than your regular "hospital medicine" while losing some effectiveness in the process.\n\nThe military grade medkit standard-issue for military personnel in the Zone is able to treat battle wounds, reduce bleeding and pain.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Medicine/StalkerMedkit/Military</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <statBases>
+      <MarketValue>18</MarketValue>
+      <Mass>0.50</Mass>
+      <Flammability>0.7</Flammability>
+      <MedicalPotency>1.00</MedicalPotency>
+      <MedicalQualityMax>1.00</MedicalQualityMax>
+      <DeteriorationRate>2</DeteriorationRate>
+    </statBases>
+    <allowedArchonexusCount>20</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="MedicineBase">
+    <defName>STALKER_ScientificMedkit</defName>
+    <label>scientific medkit</label>
+    <description>Medkits are designed to treat wounds in the middle of combat faster than your regular "hospital medicine" while losing some effectiveness in the process.\n\nThe scientific medkit is a high-end medical set designed for use in The Zone. This medkit includes items used to stop bleeding, treat burns, clean wounds, and treat a variety of different injuries. It also includes anti-radiation pills and medicine.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Medicine/StalkerMedkit/Scientific</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <statBases>
+      <MarketValue>50</MarketValue>
+      <Mass>0.50</Mass>
+      <Flammability>0.7</Flammability>
+      <MedicalPotency>1.60</MedicalPotency>
+      <MedicalQualityMax>1.30</MedicalQualityMax>
+      <DeteriorationRate>2</DeteriorationRate>
+    </statBases>
+    <allowedArchonexusCount>10</allowedArchonexusCount>
+  </ThingDef>
+
+</Defs>
