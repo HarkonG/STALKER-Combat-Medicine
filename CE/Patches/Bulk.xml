@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- ========================================= Patch item bulk ================================= -->
+
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Propital"]/statBases</xpath>
+		<value>
+			<Bulk>0.1</Bulk>
+		</value>
+</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="ETGchange"]/statBases</xpath>
+		<value>
+			<Bulk>0.1</Bulk>
+		</value>
+</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Zagustin"]/statBases</xpath>
+		<value>
+			<Bulk>0.1</Bulk>
+		</value>
+</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="SJ9TGLabs"]/statBases</xpath>
+		<value>
+			<Bulk>0.1</Bulk>
+		</value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="SJ6TGLabs"]/statBases</xpath>
+		<value>
+			<Bulk>0.1</Bulk>
+		</value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Norepinephrine"]/statBases</xpath>
+		<value>
+			<Bulk>0.1</Bulk>
+		</value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Adrenaline"]/statBases</xpath>
+		<value>
+			<Bulk>0.1</Bulk>
+		</value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Morphine"]/statBases</xpath>
+		<value>
+			<Bulk>0.1</Bulk>
+		</value>
+</Operation>
+
+
+<!-- ============================ Patch statOffsets ===================================== -->
+
+	
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs/HediffDef[defName="SJ6TGLabsEffect"]/stages/li[2]/statOffsets</xpath>
+		<value>
+			
+				<Suppressability>-0.6</Suppressability>
+			
+		</value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs/HediffDef[defName="SJ6TGLabsEffectDescription"]/stages/li[1]/statOffsets</xpath>
+		<value>
+			
+				<Suppressability>-0.6</Suppressability>
+			
+		</value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs/HediffDef[defName="MorphineEffect"]/stages/li[2]</xpath>
+		<value>
+			<statOffsets>
+				<Suppressability>-0.1</Suppressability>
+			</statOffsets>
+		</value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs/HediffDef[defName="MorphineEffectDescription"]/stages/li[1]</xpath>
+		<value>
+			<statOffsets>
+				<Suppressability>-0.1</Suppressability>
+			</statOffsets>
+		</value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs/HediffDef[defName="NorepinephrineEffect"]/stages/li[2]/statOffsets</xpath>
+		<value>
+		
+				<Suppressability>-0.3</Suppressability>
+		
+		</value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs/HediffDef[defName="NorepinephrineEffectDescription"]/stages/li[1]/statOffsets</xpath>
+		<value>
+		
+				<Suppressability>-0.3</Suppressability>
+		
+		</value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs/HediffDef[defName="AdrenalineEffect"]/stages/li[2]/statOffsets</xpath>
+		<value>
+		
+				<Suppressability>-0.2</Suppressability>
+			
+		</value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs/HediffDef[defName="AdrenalineEffectDescription"]/stages/li[1]/statOffsets</xpath>
+		<value>
+		
+				<Suppressability>-0.2</Suppressability>
+			
+		</value>
+</Operation>
+	
+
+            
+</Patch>
