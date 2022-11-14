@@ -19,13 +19,21 @@
         <rotatable>false</rotatable>
         <statBases>
             <WorkToMake>80</WorkToMake>
-            <MarketValue>35</MarketValue>
             <Mass>0.12</Mass>
             <Flammability>0.4</Flammability>
         </statBases>
         <ingestible>
             <drugCategory>Medical</drugCategory>
             <ingestSound>Ingest_Inject</ingestSound>
+            <ingestHoldOffsetStanding>
+                <northDefault>
+                    <offset>(0.16,0,0)</offset>
+                </northDefault>
+            </ingestHoldOffsetStanding>
+            <ingestCommandString>Inject {0}</ingestCommandString>
+            <ingestReportString>Injecting {0}.</ingestReportString>
+            <useEatingSpeedStat>false</useEatingSpeedStat>
+            <nurseable>true</nurseable>
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
                     <hediffDef>STALKER_Hediff_SimpleStimpack</hediffDef>
@@ -41,12 +49,13 @@
             <soundWorking>Recipe_Drug</soundWorking>
         </recipeMaker>
         <costList>
-            <STALKER_SimpleMedkit>1</STALKER_SimpleMedkit>
-            <Steel>3</Steel>
+            <Neutroamine>10</Neutroamine>
+            <Chemfuel>2</Chemfuel>
+            <MedicineIndustrial>1</MedicineIndustrial>
         </costList>
         <comps>
             <li Class="CompProperties_Drug">
-                <listOrder>200</listOrder>
+                <listOrder>220</listOrder>
                 <overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
             </li>
         </comps>
@@ -69,13 +78,21 @@
         <rotatable>false</rotatable>
         <statBases>
             <WorkToMake>80</WorkToMake>
-            <MarketValue>35</MarketValue>
             <Mass>0.12</Mass>
             <Flammability>0.4</Flammability>
         </statBases>
         <ingestible>
             <drugCategory>Medical</drugCategory>
             <ingestSound>Ingest_Inject</ingestSound>
+            <ingestHoldOffsetStanding>
+                <northDefault>
+                    <offset>(0.16,0,0)</offset>
+                </northDefault>
+            </ingestHoldOffsetStanding>
+            <ingestCommandString>Inject {0}</ingestCommandString>
+            <ingestReportString>Injecting {0}.</ingestReportString>
+            <useEatingSpeedStat>false</useEatingSpeedStat>
+            <nurseable>true</nurseable>
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
                     <hediffDef>STALKER_Hediff_MilitaryStimpack</hediffDef>
@@ -91,12 +108,13 @@
             <soundWorking>Recipe_Drug</soundWorking>
         </recipeMaker>
         <costList>
-            <STALKER_MilitaryMedkit>1</STALKER_MilitaryMedkit>
-            <Steel>3</Steel>
+            <Neutroamine>15</Neutroamine>
+            <Chemfuel>2</Chemfuel>
+            <MedicineIndustrial>2</MedicineIndustrial>
         </costList>
         <comps>
             <li Class="CompProperties_Drug">
-                <listOrder>200</listOrder>
+                <listOrder>220</listOrder>
                 <overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
             </li>
         </comps>
@@ -119,13 +137,21 @@
         <rotatable>false</rotatable>
         <statBases>
             <WorkToMake>80</WorkToMake>
-            <MarketValue>35</MarketValue>
             <Mass>0.12</Mass>
             <Flammability>0.4</Flammability>
         </statBases>
         <ingestible>
             <drugCategory>Medical</drugCategory>
             <ingestSound>Ingest_Inject</ingestSound>
+            <ingestHoldOffsetStanding>
+                <northDefault>
+                    <offset>(0.16,0,0)</offset>
+                </northDefault>
+            </ingestHoldOffsetStanding>
+            <ingestCommandString>Inject {0}</ingestCommandString>
+            <ingestReportString>Injecting {0}.</ingestReportString>
+            <useEatingSpeedStat>false</useEatingSpeedStat>
+            <nurseable>true</nurseable>
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
                     <hediffDef>STALKER_Hediff_ScientificStimpack</hediffDef>
@@ -141,12 +167,13 @@
             <soundWorking>Recipe_Drug</soundWorking>
         </recipeMaker>
         <costList>
-            <STALKER_ScientificMedkit>1</STALKER_ScientificMedkit>
-            <Steel>3</Steel>
+            <Neutroamine>25</Neutroamine>
+            <Chemfuel>2</Chemfuel>
+            <MedicineIndustrial>2</MedicineIndustrial>
         </costList>
         <comps>
             <li Class="CompProperties_Drug">
-                <listOrder>200</listOrder>
+                <listOrder>220</listOrder>
                 <overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
             </li>
         </comps>

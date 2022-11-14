@@ -19,7 +19,7 @@
         <rotatable>false</rotatable>
         <statBases>
             <WorkToMake>80</WorkToMake>
-            <MarketValue>35</MarketValue>
+
             <Mass>0.12</Mass>
             <Flammability>0.4</Flammability>
         </statBases>
@@ -81,7 +81,6 @@
         <rotatable>false</rotatable>
         <statBases>
             <WorkToMake>80</WorkToMake>
-            <MarketValue>35</MarketValue>
             <Mass>0.12</Mass>
             <Flammability>0.4</Flammability>
         </statBases>
@@ -143,7 +142,7 @@
         <rotatable>false</rotatable>
         <statBases>
             <WorkToMake>80</WorkToMake>
-            <MarketValue>35</MarketValue>
+
             <Mass>0.12</Mass>
             <Flammability>0.4</Flammability>
         </statBases>
