@@ -4,11 +4,11 @@
 
     <ResearchProjectDef>
         <defName>STALKER_Research_QuickMedicine</defName>
-        <label>quick medicine</label>
-        <description>Learn to turn you hospital medicine into quick use, combat ready medicine.</description>
+        <label>combat medicine</label>
+        <description>Learn to turn your hospital medicine into combat ready medicine.</description>
         <baseCost>500</baseCost>
         <prerequisites>
-            <li>MedicineProduction</li>
+            <li>DrugProduction</li>
         </prerequisites>
         <techLevel>Industrial</techLevel>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
