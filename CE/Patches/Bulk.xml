@@ -21,19 +21,19 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="STALKER_SimpleMedkit"]/statBases</xpath>
+		<xpath>Defs/ThingDef[defName="STALKER_SimpleStimpack"]/statBases</xpath>
 		<value>
 			<Bulk>0.1</Bulk>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="STALKER_MilitaryMedkit"]/statBases</xpath>
+		<xpath>Defs/ThingDef[defName="STALKER_MilitaryStimpack"]/statBases</xpath>
 		<value>
 			<Bulk>0.1</Bulk>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="STALKER_ScientificMedkit"]/statBases</xpath>
+		<xpath>Defs/ThingDef[defName="STALKER_ScientificStimpack"]/statBases</xpath>
 		<value>
 			<Bulk>0.1</Bulk>
 		</value>
