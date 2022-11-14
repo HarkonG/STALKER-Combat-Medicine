@@ -24,7 +24,7 @@
         </statBases>
         <ingestible>
             <drugCategory>Medical</drugCategory>
-            <ingestSound>Ingest_Inject</ingestSound>
+            <ingestSound>injector</ingestSound>
             <ingestHoldOffsetStanding>
                 <northDefault>
                     <offset>(0.16,0,0)</offset>
@@ -83,7 +83,7 @@
         </statBases>
         <ingestible>
             <drugCategory>Medical</drugCategory>
-            <ingestSound>Ingest_Inject</ingestSound>
+            <ingestSound>injector</ingestSound>
             <ingestHoldOffsetStanding>
                 <northDefault>
                     <offset>(0.16,0,0)</offset>
@@ -142,7 +142,7 @@
         </statBases>
         <ingestible>
             <drugCategory>Medical</drugCategory>
-            <ingestSound>Ingest_Inject</ingestSound>
+            <ingestSound>injector</ingestSound>
             <ingestHoldOffsetStanding>
                 <northDefault>
                     <offset>(0.16,0,0)</offset>
