@@ -25,7 +25,18 @@
         </statBases>
         <ingestible>
             <drugCategory>Medical</drugCategory>
-            <ingestSound>Ingest_Inject</ingestSound>
+            <foodType>Processed, Fluid</foodType>
+            <baseIngestTicks>160</baseIngestTicks>
+            <ingestSound>AI2_Medkit</ingestSound>
+            <ingestHoldOffsetStanding>
+                <northDefault>
+                    <offset>(0.16,0,0)</offset>
+                </northDefault>
+            </ingestHoldOffsetStanding>
+            <ingestCommandString>Use {0}</ingestCommandString>
+            <ingestReportString>Using {0}.</ingestReportString>
+            <useEatingSpeedStat>false</useEatingSpeedStat>
+            <nurseable>true</nurseable>
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
                     <hediffDef>STALKER_Hediff_SimpleMedkit</hediffDef>
@@ -76,7 +87,18 @@
         </statBases>
         <ingestible>
             <drugCategory>Medical</drugCategory>
-            <ingestSound>Ingest_Inject</ingestSound>
+            <foodType>Processed, Fluid</foodType>
+            <baseIngestTicks>130</baseIngestTicks>
+            <ingestSound>AI2_Medkit</ingestSound>
+            <ingestHoldOffsetStanding>
+                <northDefault>
+                    <offset>(0.16,0,0)</offset>
+                </northDefault>
+            </ingestHoldOffsetStanding>
+            <ingestCommandString>Use {0}</ingestCommandString>
+            <ingestReportString>Using {0}.</ingestReportString>
+            <useEatingSpeedStat>false</useEatingSpeedStat>
+            <nurseable>true</nurseable>
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
                     <hediffDef>STALKER_Hediff_MilitaryMedkit</hediffDef>
@@ -127,7 +149,18 @@
         </statBases>
         <ingestible>
             <drugCategory>Medical</drugCategory>
-            <ingestSound>Ingest_Inject</ingestSound>
+            <foodType>Processed, Fluid</foodType>
+            <baseIngestTicks>100</baseIngestTicks>
+            <ingestSound>AI2_Medkit</ingestSound>
+            <ingestHoldOffsetStanding>
+                <northDefault>
+                    <offset>(0.16,0,0)</offset>
+                </northDefault>
+            </ingestHoldOffsetStanding>
+            <ingestCommandString>Use {0}</ingestCommandString>
+            <ingestReportString>Using {0}.</ingestReportString>
+            <useEatingSpeedStat>false</useEatingSpeedStat>
+            <nurseable>true</nurseable>
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
                     <hediffDef>STALKER_Hediff_ScientificMedkit</hediffDef>
