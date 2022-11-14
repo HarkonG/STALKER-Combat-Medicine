@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>S.T.A.L.K.E.R. - Combat Medicine</name>
+	<name>S.T.A.L.K.E.R. - Combat Medicine +</name>
 	<author>Harkon</author>
 	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=2412382876</url>
 	<packageId>Harkon.STALKER.CombatMedicine</packageId>
@@ -8,7 +8,7 @@
 		<li>1.4</li>
 	</supportedVersions>
 	<description>
-	S.T.A.L.K.E.R. - Combat Medicine
+	S.T.A.L.K.E.R. - Combat Medicine +
 	</description>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
