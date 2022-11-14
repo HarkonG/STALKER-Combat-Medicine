@@ -42,7 +42,7 @@
             </outcomeDoers>
         </ingestible>
         <recipeMaker>
-            <researchPrerequisite>STALKER_Research_QuickMedicine</researchPrerequisite>
+            <researchPrerequisite>DrugProduction</researchPrerequisite>
             <recipeUsers>
                 <li>DrugLab</li>
             </recipeUsers>
@@ -101,7 +101,7 @@
             </outcomeDoers>
         </ingestible>
         <recipeMaker>
-            <researchPrerequisite>STALKER_Research_QuickMedicine</researchPrerequisite>
+            <researchPrerequisite>MedicineProduction</researchPrerequisite>
             <recipeUsers>
                 <li>DrugLab</li>
             </recipeUsers>
@@ -160,7 +160,7 @@
             </outcomeDoers>
         </ingestible>
         <recipeMaker>
-            <researchPrerequisite>STALKER_Research_QuickMedicine</researchPrerequisite>
+            <researchPrerequisite>Fabrication</researchPrerequisite>            
             <recipeUsers>
                 <li>DrugLab</li>
             </recipeUsers>

@@ -5,7 +5,7 @@
     <ThingDef ParentName="MakeableDrugPillBase">
         <defName>STALKER_SimpleMedkit</defName>
         <label>simple Medkit</label>
-        <description>Medkits deliver medical compounds directly into the user's bloodstream, improving his medical condition and combat capabilities.\n\nSimple medkits are popular among novice stalkers as they are easy to obtain and inexpensive.</description>
+        <description>Medkits deliver medical compounds directly into the user's bloodstream, improving regeneration and reducing blood loss for a short time.\n\nSimple medkits are popular among novice stalkers as they are easy to obtain and inexpensive.</description>
         <techLevel>Industrial</techLevel>
         <stackLimit>25</stackLimit>
         <descriptionHyperlinks>
@@ -45,7 +45,7 @@
             </outcomeDoers>
         </ingestible>
         <recipeMaker>
-            <researchPrerequisite>STALKER_Research_QuickMedicine</researchPrerequisite>
+            <researchPrerequisite>DrugProduction</researchPrerequisite>
             <recipeUsers>
                 <li>DrugLab</li>
             </recipeUsers>
@@ -106,7 +106,7 @@
             </outcomeDoers>
         </ingestible>
         <recipeMaker>
-            <researchPrerequisite>STALKER_Research_QuickMedicine</researchPrerequisite>
+            <researchPrerequisite>MedicineProduction</researchPrerequisite>
             <recipeUsers>
                 <li>DrugLab</li>
             </recipeUsers>
@@ -128,7 +128,7 @@
     <ThingDef ParentName="MakeableDrugPillBase">
         <defName>STALKER_ScientificMedkit</defName>
         <label>scientific Medkit</label>
-        <description>Medkits deliver medical compounds directly into the user's bloodstream, improving his medical condition and combat capabilities.\n\nScientific grade medkits were created by the same defense research institute in Kiev which developed the well-known SEVA suit, they are made with the best quality ingredients. The extremely high cost practically limits the target group of the drug to the most skillful and successful stalkers.</description>
+        <description>Medkits deliver medical compounds directly into the user's bloodstream, improving regeneration and reducing blood loss for a short time.\n\nScientific grade medkits were created by the same defense research institute in Kiev which developed the well-known SEVA suit, they are made with the best quality ingredients. The extremely high cost practically limits the target group of the drug to the most skillful and successful stalkers.</description>
         <techLevel>Industrial</techLevel>
         <stackLimit>25</stackLimit>
         <descriptionHyperlinks>
@@ -168,7 +168,7 @@
             </outcomeDoers>
         </ingestible>
         <recipeMaker>
-            <researchPrerequisite>STALKER_Research_QuickMedicine</researchPrerequisite>
+            <researchPrerequisite>Fabrication</researchPrerequisite>
             <recipeUsers>
                 <li>DrugLab</li>
             </recipeUsers>
