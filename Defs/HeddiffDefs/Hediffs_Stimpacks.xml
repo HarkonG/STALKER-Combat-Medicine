@@ -4,7 +4,7 @@
 
     <HediffDef>
         <defName>STALKER_Hediff_SimpleStimpack</defName>
-        <hediffClass>HediffWithComps</hediffClass>
+        <hediffClass>Hediff_High</hediffClass>
         <label>simple stimpack</label>
         <description>simple stimpack dose increasing healing speed and reducing bleeding.</description>
         <maxSeverity>1.0</maxSeverity>
@@ -28,7 +28,7 @@
 
     <HediffDef>
         <defName>STALKER_Hediff_MilitaryStimpack</defName>
-        <hediffClass>HediffWithComps</hediffClass>
+        <hediffClass>Hediff_High</hediffClass>
         <label>military stimpack</label>
         <description>military stimpack dose increasing healing speed, reducing bleeding and pain.</description>
         <maxSeverity>1.0</maxSeverity>
@@ -53,7 +53,7 @@
 
     <HediffDef>
         <defName>STALKER_Hediff_ScientificStimpack</defName>
-        <hediffClass>HediffWithComps</hediffClass>
+        <hediffClass>Hediff_High</hediffClass>
         <label>scientific stimpack</label>
         <description>scientific stimpack dose increasing healing speed and radiation resistance as well as reducing bleeding and pain.</description>
         <maxSeverity>1.0</maxSeverity>
@@ -68,9 +68,9 @@
         </comps>
         <stages>
             <li>
-                <statOffsets>
+                <!--<statOffsets>
                     <ToxicSensitivity>-0.80</ToxicSensitivity>
-                </statOffsets>
+                </statOffsets>-->
                 <hungerRateFactor>1.25</hungerRateFactor>
                 <painOffset>-0.20</painOffset>
                 <naturalHealingFactor>1</naturalHealingFactor>
