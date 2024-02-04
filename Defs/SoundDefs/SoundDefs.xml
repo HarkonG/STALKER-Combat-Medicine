@@ -5,7 +5,7 @@
     <SoundDef>
         <defName>AI2_Medkit</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -30,7 +30,7 @@
      <SoundDef>
         <defName>injector</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
